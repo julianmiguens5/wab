@@ -1,0 +1,28 @@
+{
+  "name": "wab",
+  "version": "1.0.0",
+  "description": "Whatsapp Delivery",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianmiguens5/wab.git"
+  },
+  "author": "Julian Miguens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianmiguens5/wab/issues"
+  },
+  "homepage": "https://github.com/julianmiguens5/wab#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
